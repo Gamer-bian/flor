@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project of biaysel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap" rel="stylesheet">
     <style>
-        body {
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .section{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            width: 100vw;
+            height: 120vh;
+            width: 100%;
             background-color: #e0f7fa;
             margin: 0;
+            flex-direction: column;
         }
         .tronco {
             height: 350px;
@@ -113,25 +122,35 @@
                 transform: rotate(360deg);
             }
         }
+        .parrafo{
+            font-family: "Playwrite AU NSW", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
     </style> 
 </head>
 <body>
-
-    <div class="tronco">
-        <div class="hoja-verde"></div>
-        <div class="hoja-verde2"></div>
-        <div class="centro">
-            <div class="hoja-amarilla hoja-amarilla-normal"></div>
-            <div class="hoja-amarilla2 hoja-amarilla-normal"></div>
-            <div class="hoja-amarilla3 hoja-amarilla-normal"></div>
-            <div class="hoja-amarilla4 hoja-amarilla-normal"></div>
-            <div class="hoja-amarilla5 hoja-amarilla-normal"></div>
-            <div class="hoja-amarilla6 hoja-amarilla-normal"></div>
-            <div class="hoja-amarilla7 hoja-amarilla-normal"></div>
-            <div class="hoja-amarilla8 hoja-amarilla-normal"></div>
+    <section class="section">
+        <div class="tronco">
+            <div class="hoja-verde"></div>
+            <div class="hoja-verde2"></div>
+            <div class="centro">
+                <div class="hoja-amarilla hoja-amarilla-normal"></div>
+                <div class="hoja-amarilla2 hoja-amarilla-normal"></div>
+                <div class="hoja-amarilla3 hoja-amarilla-normal"></div>
+                <div class="hoja-amarilla4 hoja-amarilla-normal"></div>
+                <div class="hoja-amarilla5 hoja-amarilla-normal"></div>
+                <div class="hoja-amarilla6 hoja-amarilla-normal"></div>
+                <div class="hoja-amarilla7 hoja-amarilla-normal"></div>
+                <div class="hoja-amarilla8 hoja-amarilla-normal"></div>
+            </div>
         </div>
-    </div>
-
+        <div class="parrafo">
+            <p><b>De:</b> <span class="span">Biaysel</span><br>
+                <b>Para:</b> Mis hermanas<span class="span"> ❤️Abismeiry y Abiligrey❤️
+            </span></p>
+        </div>
+    </section>
 </body>
 </html>
 
